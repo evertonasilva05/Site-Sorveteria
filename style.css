@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(168, 241, 250);
+    color: rgb(183, 52, 119);
+    text-align: center;
+}
+
+h1 {
+    color: rgb(218, 110, 193);
+}
+
+button {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border: none;
+}
