@@ -1,67 +1,150 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Gatto Gelatto</title>
+    <meta name="description" content="Página da fábrica e franquia (marca) mostrando principais lançamentos e promoções">
+    <meta name="keywords" content="sorvete, sorveteria, picolé, sundae, casquinha, cascão, milkshake, pistache, verão, calor, refrescar">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Home - Gatto Gelatto</title>
 </head>
-    <body>
 
-        <a href="#" class="topo-icon" title="reset">
-
-        </a>
-
-        <header>
-            <h1>Gatto Gelatto</h1>
-            <h2>tem varios sabores aqui</h2>
-            <p>aqui diversão e sabor andam lado a lado</p>
-        </header>
-
-        <main>
-            
-            <section>
-                <h2>o que a gente possui</h2>
-            <div class="menu">
-                <a href="milkshake.html" class="button">milkshake</a> <br>
-                <a href="casquinha.html" class="button">casquinha</a> <br>
-                <a href="cascoes.html" class="button">cascões</a> <br>
-                <a href="shake-mix.html" class="button">shake</a> <br>
-                <a href="mix.html" class="button" >mix</a> <br>
-                <a href="sundae.html" class="button">sundae</a> <br>
-                <a href="picole.html" class="button">picole</a>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container custom-navbar">
+                <a class="navbar-brand" href="#">Gatto Gelatto</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse flex-grow-0" id="navbarNavDropdown">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Início</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Produtos
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Potes</a></li>
+                                <li><a class="dropdown-item" href="#">Picolés e Paletas</a></li>
+                                <li><a class="dropdown-item" href="#">Casquinha e Cascão</a></li>
+                                <li><a class="dropdown-item" href="#">Milkshake</a></li>
+                                <li><a class="dropdown-item" href="#">Sundae</a></li>
+                                <li><a class="dropdown-item" href="#">Mix</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Sobre nós</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Lojas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Seja parceiro</a>
+                        </li>
+                        
+                    </ul>
                 </div>
-            </section>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="..." class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
 
-        <section id="a-gente">
-            <h2>sobre a gente</h2>
-            <p>começando uma nova e incrivel franquia de sorvete juntando tecnologia e sabor</p>
-        </section>
-
-        <section id="contatos">
-            <h2>venha vê a gente</h2>
-            <p><strong>endereço:</strong>Rua Salvador Branco de Andrade, bairro 182 - Jardim Sao Miguel - cidade: taboão da serra</p>
-            <p><strong>telefone/whatsapp: (11) 98765-4321</strong></strong></p>
-            <p><strong>horario que estamos abertos: segunda a sexta das 12h até 22h</strong></strong></p>
-            <p><strong>nossas rede sociais</strong></p>
-        </section>
-
-        <section id="= redes-sociais">
-            <h2>nossas onde nos seguir</h2>
-            <p>nossas redes sociais pra fica sabendo de todas as novidades</p>
-
-            <div class="redes-icons">
-                <a href="https://facebook.com/seu-perfil" target="_black" title="facebook" class=""social-icon"></a>
-                <a href="https://instagram.com/seu-perfil" target="_blank" title="instagram" class="social-icon"></a>
-                <a href="https://x.com/seu-perfil" target="_blank" title="x (twitter)" class="social-icon"></a>
-                <a href="https//tiktok.com/seu-perfil" target="_black" title="tiktok" class="social-icon"></a>
-                <a href="https//bsky.app/profile/seu-perfil" target="_black" title="bluesky" class="social-icon"></a>
+        <section class="about">
+            <h2>Bem-vindo(a) a sorveteria Gatto Gelato!</h2>
+            <div class="row">
+                <p class="text">
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                </p>
+                <figure class="figure">
+                    <img src="" class="figure-img img-fluid rounded" alt="Imagem do mascote da empresa, um gato laranja, segurando um sorvete">
+                    <figcaption class="figure-caption">Personagem de @mike_mc05 no X</figcaption>
+                </figure>
             </div>
         </section>
 
-        </main>
-        <footer><p>© 2026 Sorveteria</p>
-            <p>os direitos reservados, qualquer copia está sujeito a paulada</p>
-            </footer>
-    </body>
-</html>  
+        <section class="products">
+            <h2>Todos os nossos produtos</h2>
+            <div class="row g-3">
+                <div class="col-12">
+                    <a href="#" class="d-block">
+                        <img src="pesquisa-sabor-conjunto.png" alt="Pesquisa por sabor ou conjunto" class="w-100">
+                    </a>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4">
+                    <a href="#" class="d-block">
+                        <img src="potes.png" alt="Potes" class="w-100">
+                    </a>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4">
+                    <a href="#" class="d-block">
+                        <img src="picoles-paletas.png" alt="Picolés e Paletas" class="w-100">
+                    </a>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4">
+                    <a href="#" class="d-block">
+                        <img src="casquinha-cascao.png" alt="Casquinha e Cascão" class="w-100">
+                    </a>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4">
+                    <a href="#" class="d-block">
+                        <img src="milkshake.png" alt="Milkshake" class="w-100">
+                    </a>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4">
+                    <a href="#" class="d-block">
+                        <img src="sundae.png" alt="Sundae" class="w-100">
+                    </a>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4">
+                    <a href="#" class="d-block">
+                        <img src="mix.png" alt="Mix" class="w-100">
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+
+</html>
